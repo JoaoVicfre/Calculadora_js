@@ -26,10 +26,6 @@ body {
     border-radius: 20px;
     min-width: 300px;
     min-height: 400px;
-    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
-        10px 10px 75px rgba(0, 0, 0, 0.25),
-        inset -5px -5px 15px rgba(0, 0, 0, 0.25),
-        inset 5px 5px 15px rgba(0, 0, 0, 0.25);
 }
 
 .calculadora {
@@ -91,30 +87,7 @@ body {
     font-size: 1.5em;
 }
 
-.calculadora button:active {
-    filter: brightness(1.5);
-}
-
-.calculadora button.clear {
-    background: #f00;
-}
-
-.calculadora button.clear::before {
-    background: linear-gradient(90deg, #d20000, rgba(255, 255, 255, 0.36));
-    border-left: 1px solid rgba(255, 255, 255, 0.27);
-    border-top: 1px solid rgba(255, 255, 255, 0.27);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.27);
-}
-
 .calculadora button.equal {
     grid-row: span 2;
     height: 180px;
-    background: #2196f3;
-}
-
-.calculadora button.equal::before {
-    background: linear-gradient(90deg, #1479c9, rgba(255, 255, 255, 0.36));
-    border-left: 1px solid rgba(255, 255, 255, 0.27);
-    border-top: 1px solid rgba(255, 255, 255, 0.27);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.27);
 }
